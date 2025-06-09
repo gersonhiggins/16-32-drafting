@@ -1,0 +1,110 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../assets/background.jpg');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 600px;
+}
+
+h1 {
+    font-family: 'Minerva-Modern', sans-serif;
+    padding: 2rem;
+}
+
+h2 {
+    max-width: 70%;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: "Minerva-Modern", sans-serif;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+    color: white;
+    font-size: 2.5rem;
+    margin: 0%;
+}
+
+.llc {
+    max-width: 70%;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: "Minerva-Modern", sans-serif;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+    color: white;
+    margin: 0%;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0;
+}
+
+li {
+    max-width: 400px;
+    text-align: center;
+}
+
+li p {
+    text-align: left;
+    color: rgb(75, 75, 75);
+}
+
+li img {
+    max-width: 400px;
+    max-height: 200px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-content div {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.footer-content div p {
+    margin: 0;
+}
+h4 {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+@media screen and (max-width: 1000px) {
+    nav {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav {
+        height: 300px;
+    }
+
+    h2,
+    .llc {
+        max-width: 90%;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    nav {
+        height: 200px;
+    }
+
+    h2,
+    .llc {
+        max-width: 90%;
+        font-size: 1rem;
+    }
+}
