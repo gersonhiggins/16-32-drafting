@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/16-32-drafting/static/css/main.12f4b17c.css",
-    "main.js": "/16-32-drafting/static/js/main.f5eec1c6.js",
+    "main.css": "/16-32-drafting/static/css/main.7888e7e9.css",
+    "main.js": "/16-32-drafting/static/js/main.b7f19449.js",
     "static/js/453.6cc506d6.chunk.js": "/16-32-drafting/static/js/453.6cc506d6.chunk.js",
     "static/media/background.jpg": "/16-32-drafting/static/media/background.8faf89c79120dbb373e3.jpg",
     "static/media/gerson.jpg": "/16-32-drafting/static/media/gerson.575999b518187a830303.jpg",
@@ -14,12 +14,12 @@
     "static/media/minerva-modern.otf": "/16-32-drafting/static/media/minerva-modern.61044deefcff4d93ab1f.otf",
     "static/media/gustavo.jpg": "/16-32-drafting/static/media/gustavo.04f1684fbda18b491db5.jpg",
     "index.html": "/16-32-drafting/index.html",
-    "main.12f4b17c.css.map": "/16-32-drafting/static/css/main.12f4b17c.css.map",
-    "main.f5eec1c6.js.map": "/16-32-drafting/static/js/main.f5eec1c6.js.map",
+    "main.7888e7e9.css.map": "/16-32-drafting/static/css/main.7888e7e9.css.map",
+    "main.b7f19449.js.map": "/16-32-drafting/static/js/main.b7f19449.js.map",
     "453.6cc506d6.chunk.js.map": "/16-32-drafting/static/js/453.6cc506d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12f4b17c.css",
-    "static/js/main.f5eec1c6.js"
+    "static/css/main.7888e7e9.css",
+    "static/js/main.b7f19449.js"
   ]
 }
