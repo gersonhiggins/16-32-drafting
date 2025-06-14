@@ -4,7 +4,7 @@ import "./Style.css";
 
 function Body() {
   return (
-    <div>
+    <div id="home">
       <div className='slogan'>
       <h1>Every Home Begins With a Thoughtful Plan.</h1>
       <p>
@@ -20,7 +20,7 @@ function Body() {
       </p>
       </div>
       <h1>MEET OUR TEAM</h1>
-      <ul className='team-list'>
+      <ul className='team-list' id='team'>
         {team.map((member, index) => (
           <li className='team-member' key={index}>
             <img src={member.image} alt={member.name} />

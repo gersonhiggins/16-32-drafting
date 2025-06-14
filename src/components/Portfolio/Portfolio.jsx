@@ -28,12 +28,9 @@ const Gallery = () => {
   };
 
   return (
-    <div className="gallery" id="gallery">
+    <div className="gallery" id="portfolio">
       <div className="gallery-content">
-        <h1>Galeria de Fotos</h1>
-        <p>
-          galeria de fotos
-          </p>
+        <h1>Portfolio Gallery</h1>
       </div>
 
       <div className="gallery-images">
@@ -47,8 +44,7 @@ const Gallery = () => {
             </div>
           ))}
         </div>
-
-        <div className="app__gallery-images_arrows">
+        <div className="gallery-images_arrows">
           <BsArrowLeftShort
             className="gallery__arrow-icon"
             onClick={() => scroll("left")}

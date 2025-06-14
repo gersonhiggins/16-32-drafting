@@ -22,7 +22,7 @@ function NavBar() {
         <span className='nav-separator'>|</span>
         <li><a href="#team">Team</a></li>
         <span className='nav-separator'>|</span>
-        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
         <span className='nav-separator'>|</span>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -49,7 +49,7 @@ function NavBar() {
             <ul className='dropdown-menu'>
               <li><a href="#home">Home</a></li>
               <li><a href="#team">Team</a></li>
-              <li><a href="#Portfolio">Portfolio</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>

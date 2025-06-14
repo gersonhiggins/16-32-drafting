@@ -4,7 +4,7 @@ import './Style.css';
 function Footer() {
     return (
         <footer style={{ background: '#333', color: '#fff', padding: '1rem', marginTop: '2rem', textAlign: 'center' }}>
-            <div className='footer-content' >
+            <div className='footer-content' id='contact'>
                 <div>
                     <h4> Contact Us</h4>
                     <p>Email</p>
