@@ -1,0 +1,17 @@
+.gallery-images {
+    width: 100%;
+}
+
+.gallery-images_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+.gallery-images img {
+    max-height: 10rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
